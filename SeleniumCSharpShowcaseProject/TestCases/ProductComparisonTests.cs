@@ -46,11 +46,5 @@ namespace SeleniumCSharpShowcaseProject.TestCases
             fusionBackpackProductPage.AddToProductComparisonAndView(true);
             productComparePage.RemoveProductFromComparisonList();
         }
-
-        [TearDown]
-        public void TearDown()
-        {
-            driver.Quit();
-        }
     }
 }
